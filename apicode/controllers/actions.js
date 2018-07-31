@@ -1,10 +1,13 @@
+/*This is where to put the code for custom responses -- interacting with DB or any other extenal sources are to be initiated from here*/
+
 module.exports = {
 
-    call:function(functionName,req,res,next) //for a bit of readability, from where function is called
+    call:function(functionName,req,res,next) //for a bit of readability and handling exception while calling
     {
-        try{
+        try
+        {
 
-            this[functionName](req,res,next);  //any function from this module is executed by name
+            this[functionName](req,res,next);  //any function from this module is executed by functionName
         }
         catch(error) //handling if action is not defined within api
         {
