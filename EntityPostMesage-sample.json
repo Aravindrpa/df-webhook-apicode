@@ -1,0 +1,26 @@
+{
+    "entityTypeBatchInline": {
+        "entityTypes": [
+            {
+                "name": "UserNames",
+                "displayName": "UserNames",
+                "kind": "KIND_MAP",
+                "autoExpansionMode": "AUTO_EXPANSION_MODE_DEFAULT",
+                "entities": [
+                    {
+                        "value": "UserNames",
+                        "synonyms": [
+                              "AravindTest"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+//KIND_UNSPECIFIED	Not specified. This value should be never used.
+//KIND_MAP	Map entity types allow mapping of a group of synonyms to a canonical value.
+//KIND_LIST
+//
+//AUTO_EXPANSION_MODE_UNSPECIFIED	Auto expansion disabled for the entity.
+//AUTO_EXPANSION_MODE_DEFAULT	Allows an agent to recognize values that have not been //explicitly listed in the entity.
